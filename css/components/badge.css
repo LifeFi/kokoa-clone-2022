@@ -1,12 +1,29 @@
-.badge {
-    background-color:tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    color:white;
+.badge,
+.badge-voice {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
 }
 
+.badge {
+  background-color: tomato;
+}
+.badge-voice {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  padding: 0px 5px;
+  width: auto;
+}
+
+.joining div i {
+  color: blue;
+}
+
+.joining div span {
+  background-color: blue;
+}
